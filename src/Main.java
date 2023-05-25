@@ -21,6 +21,11 @@ public class Main {
         //Definir comportamento do objeto
         rainha.falar();
         System.out.println(rainha.falar("alto"));
+        rainha.comer();
 
+    }
+    //sobrescrita do método
+    public void comer(){
+        System.out.println("comeu como animal");
     }
 }
