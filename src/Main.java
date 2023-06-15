@@ -6,6 +6,21 @@ public class Main {
         Pessoa qualquer;
         //instanciação de objeto
         qualquer = new Pessoa();
-        //Definição
+        //Definição do formato de pessoa qualquer
+        qualquer.nome="Rita";
+        qualquer.sobrenome="Lee";
+        qualquer.falar();
+        //Criar novos objetos
+        //declarar objetos
+        Pessoa rainha;
+        //Instanciar objetos
+        rainha = new Pessoa();
+        // definir forma do objeto
+        rainha.nome ="Tina";
+        rainha.sobrenome="Turnner";
+        //Definir comportamento do objeto
+        rainha.falar();
+        System.out.println(rainha.falar("alto"));
+        rainha.comer();
     }
 }
