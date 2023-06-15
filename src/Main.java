@@ -2,30 +2,10 @@ public class Main {
     public static void main(String[] args) {
         // Aula introdutória de Orientação á Objetos
  Pessoa adao = new Pessoa();
- //Declaração de objeto
+ //declaração do objeto
         Pessoa qualquer;
-        //Instanciação de objeto
+        //instanciação de objeto
         qualquer = new Pessoa();
-        //Definição do formato da pessoa qualquer
-        qualquer.nome="Rita";
-        qualquer.sobrenome = "Lee";
-        qualquer.falar();
-        //Criar novos objetos
-        //Declarar objetos
-        Pessoa rainha;
-        //Instanciar objetos
-        rainha = new Pessoa();
-        //Deefinir forma do objeto
-        rainha.nome = "Tina";
-        rainha.sobrenome = "Tunner";
-        //Definir comportamento do objeto
-        rainha.falar();
-        System.out.println(rainha.falar("alto"));
-        rainha.comer();
-
-    }
-    //sobrescrita do método
-    public void comer(){
-        System.out.println("comeu como animal");
+        //Definição
     }
 }
